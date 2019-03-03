@@ -28,13 +28,12 @@
             android:hint="Name:"
             android:inputType="textPersonName" />
 
-        <EditText
-            android:id="@+id/editText2"
+        <Spinner
+            android:id="@+id/spinner2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Blood Group:"
-            android:inputType="textPersonName" />
+            android:spinnerMode="dialog" />
+
 
         <EditText
             android:id="@+id/editText3"
