@@ -21,7 +21,7 @@
 
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/Donar_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -34,17 +34,21 @@
             android:layout_height="wrap_content"
             android:spinnerMode="dialog" />
 
-
-        <EditText
-            android:id="@+id/editText3"
+        <TextView
+            android:id="@+id/DOB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="DOB:"
-            android:inputType="date" />
+            android:textSize="15sp"
+            android:text="DOB" />
+
+        <Button
+            android:id="@+id/DOBbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calendar" />
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/Mob_No"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -60,7 +64,7 @@
             android:inputType="phone" />
 
         <EditText
-            android:id="@+id/editText6"
+            android:id="@+id/Address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -68,7 +72,7 @@
             android:inputType="textPostalAddress" />
 
         <EditText
-            android:id="@+id/editText7"
+            android:id="@+id/vemail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -76,19 +80,19 @@
             android:inputType="textEmailAddress" />
 
         <EditText
-            android:id="@+id/editText8"
+            android:id="@+id/Height"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Height:"
+            android:hint="Height (in cm):"
             android:inputType="number" />
 
         <EditText
-            android:id="@+id/editText9"
+            android:id="@+id/Weight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Weight:"
+            android:hint="Weight (in kg):"
             android:inputType="number" />
 
         <TextView
@@ -97,23 +101,27 @@
             android:layout_height="wrap_content"
             android:text="Sex:"
             tools:text="Sex:" />
+        
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/Male"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Male"
             tools:text="Male" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/Female"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Female"
             tools:text="Female" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/Transgender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Transgender"
@@ -127,7 +135,23 @@
             android:hint="Diseases or Medications (if any):"
             android:inputType="textMultiLine" />
 
+        <EditText
+            android:id="@+id/vpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password:"
+            android:inputType="textPassword" />
 
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT" />
+
+        </RadioGroup>
     </LinearLayout>
     </RelativeLayout>
 </ScrollView>
+  
+ 
